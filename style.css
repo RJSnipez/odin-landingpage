@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *::before,
 *::after,
 * {
@@ -29,12 +31,6 @@ button {
     height: auto;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 a {
     text-decoration: none;
     font-size: 18px;
@@ -54,20 +50,23 @@ a {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 20px 250px 100px;
+    padding: 20px 250px 50px;
     align-items: center;
 }
 
 .links ul {
     display: flex;
     gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
-.bottom {
+.welcome {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 250px 100px;
-    
 }
 
 .header {
@@ -84,11 +83,10 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    width: 550px;
     gap: 20px;
 }
 
-.middle {
+.main {
     padding: 100px 250px;
 }
 
@@ -100,7 +98,7 @@ a {
     margin-bottom: 50px;
 }
 
-.secondary img {
+.main-content img {
     width: 200px;
     height: 200px;
     border: 4px solid #3882F6;
@@ -108,7 +106,7 @@ a {
     margin-bottom: 5px;
 }
 
-.secondary {
+.main-content {
     display: flex;
     justify-content: center;
     gap: 80px;
